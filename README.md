@@ -1,35 +1,53 @@
-UniClassScheduler
 
-UniClassScheduler is a Python-based desktop application designed to automate university class scheduling. With a user-friendly Tkinter GUI, it enables administrators to manage professors, courses, and classrooms, generate conflict-free schedules, and ensure specific courses do not overlap in time or place. The project includes a comprehensive sample dataset with intentional overlaps to test scheduling robustness, making it ideal for universities seeking efficient timetable solutions.
+# UniClassScheduler
 
-Features
+**UniClassScheduler** is a Python-based desktop application that automates university class scheduling. Featuring an intuitive Tkinter GUI, it allows administrators to manage professors, courses, and classrooms, generate conflict-free timetables, and enforce custom constraints—such as ensuring specific courses do not overlap in time or space. The project includes a robust sample dataset with intentional conflicts to rigorously test scheduling performance.
 
-Data Management: Add and manage professors, courses, and classrooms with detailed attributes (e.g., availability, course conflicts, classroom features).
-Schedule Generation: Automatically create schedules respecting professor availability, course conflicts, and classroom constraints.
-Non-Overlapping Courses: Specify two courses (e.g., CS101 and MATH101) to ensure they are scheduled at different times and rooms.
-Sample Data: Includes 20 professors, 40 courses, and 15 classrooms with overlaps for realistic testing.
-Save/Load Data: Persist schedules and settings to JSON for reuse.
-Intuitive GUI: Easy-to-use interface for inputting data, planning courses, and viewing schedules in a table.
+---
 
-Requirements
+## 🚀 Features
 
-Python: Version 3.8 or higher (tested with Python 3.12).
-Libraries: Tkinter (included with standard Python).
-Operating System: Windows, macOS, or Linux.
+* **Data Management**: Add and manage professors, courses, and classrooms, including attributes like availability, conflicts, and room features.
+* **Smart Scheduling**: Automatically generate optimized schedules that respect all constraints.
+* **Custom Course Constraints**: Enforce non-overlapping rules between specific courses (e.g., CS101 and MATH101).
+* **Realistic Sample Dataset**: Includes 20 professors, 40 courses, and 15 classrooms—with overlapping schedules for testing.
+* **Persistence**: Save/load data and schedules in JSON format.
+* **GUI Interface**: Clean and interactive Tkinter interface for data entry and schedule visualization.
 
-Installation
+---
 
-Clone the Repository:
+## 🛠 Requirements
+
+* **Python**: Version 3.8 or higher (tested with Python 3.12)
+* **Libraries**: Only standard Python libraries; no external dependencies
+* **OS**: Cross-platform (Windows, macOS, Linux)
+
+---
+
+## 🔧 Installation
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/<your-username>/UniClassScheduler.git
 cd UniClassScheduler
+```
 
+### 2. Verify Python Installation
 
-Verify Python Installation:Ensure Python 3.8+ is installed:
+Ensure Python 3.8+ is installed:
+
+```bash
 python --version
+```
 
-If not installed, download from python.org.
+If not, download it from [python.org](https://www.python.org).
 
-Check Project Structure:Confirm the following structure:
+### 3. Confirm Project Structure
+
+Ensure the project structure looks like this:
+
+```
 UniClassScheduler/
 ├── main.py
 ├── models/
@@ -52,172 +70,146 @@ UniClassScheduler/
 ├── screenshots/
 │   └── main_interface.png
 ├── LICENSE
+├── README_fa.md
 └── README.md
+```
 
+---
 
-No Additional Dependencies:The project uses only the Python standard library (Tkinter), so no pip install is needed.
+## 💻 Usage
 
+### 1. Launch the Application
 
-Usage
-UniClassScheduler offers a straightforward GUI for managing and scheduling university classes. Follow these steps to use it effectively:
-1. Run the Application
+```bash
+cd UniClassScheduler
+python main.py
+```
 
-Navigate to the project directory:cd UniClassScheduler
+> On Windows, you may need the full path to Python:
+> `C:\Users\YourName\AppData\Local\Programs\Python\Python312\python.exe main.py`
 
+---
 
-Launch the application:python main.py
+### 2. Load Sample Data
 
-On Windows, use the full Python path if needed:C:\Users\YourName\AppData\Local\Programs\Python\Python312\python.exe main.py
+To test the scheduling engine with a realistic dataset:
 
+* Click **"Load Sample Data"**
+* You’ll see: *"Success: Sample data loaded successfully."*
 
-The main window opens, displaying buttons for data management and scheduling.
+> The sample includes intentional overlaps—perfect for testing custom constraints like non-overlapping CS101 and MATH101.
 
-2. Load Sample Data
+---
 
-Purpose: Test the scheduler with a large dataset (20 professors, 40 courses, 15 classrooms) featuring intentional overlaps.
-Steps:
-Click Load Sample Data in the main window.
-A message confirms: "Success: Sample data loaded successfully."
-The dataset includes conflicting courses (e.g., CS101 vs. MATH101) for testing the non-overlap feature.
+### 3. Add Custom Data *(Optional)*
 
+* **Add Professor**: Enter name, availability (e.g., Mon 09:00–12:00), and courses.
+* **Add Course**: Specify course code, duration, professors, and conflicts.
+* **Add Classroom**: Define name, capacity, availability, and features (e.g., projector).
 
-Note: If you see "Failed to load sample data: No module named 'data.sample_data'", ensure data/__init__.py exists. See Troubleshooting.
+---
 
-3. Add Custom Data (Optional)
+### 4. Plan Non-Overlapping Courses
 
-Purpose: Input custom professors, courses, or classrooms.
-Steps:
-Click Add Professor to enter name, availability (e.g., Monday 09:00–12:00), and courses.
-Click Add Course to specify name, code, duration, professors, and conflicts.
-Click Add Classroom to define name, capacity, availability, and features (e.g., projector).
-Additions are logged and reflected in scheduling.
+* Click **"Plan Courses"**
+* Choose two courses (e.g., CS101 and MATH101)
+* Click **"Set Non-Overlapping Constraint"**
 
+> You can also verify constraints after generating the schedule.
 
+---
 
-4. Plan Courses to Avoid Overlaps
+### 5. Generate Schedule
 
-Purpose: Ensure two courses (e.g., CS101 and MATH101) are scheduled at different times and rooms.
-Steps:
-Click Plan Courses to open a new window.
-Select two courses from dropdowns (e.g., "CS101" and "MATH101").
-Click Set Non-Overlapping Constraint to enforce non-overlap. A confirmation appears.
-Alternatively, click Check Current Schedule (after generating a schedule) to verify non-overlap.
+* Click **"Generate Schedule"**
+* The algorithm processes constraints and generates a conflict-free timetable
+* You’ll see a confirmation or a list of unscheduled courses
 
+> If a non-overlap constraint was set, you'll see:
+> *"CS101 and MATH101 do not overlap."*
 
-Example: CS101 (Monday 09:00–10:30, Room 101) and MATH101 (Tuesday 10:00–11:30, Room 102) are scheduled without overlap.
-Note: The sample data’s CS101 and MATH101 conflict, making them ideal for testing.
+---
 
+### 6. View the Schedule
 
-5. Generate a Schedule
+* Click **"View Schedule"**
+* A table displays scheduled classes:
 
-Purpose: Create a conflict-free schedule respecting constraints.
-Steps:
-Click Generate Schedule.
-The scheduler processes data, prioritizing non-overlap constraints (e.g., CS101 and MATH101).
-A message indicates success or lists unscheduled courses (expected with large data).
-If non-overlap is set, a message confirms compliance (e.g., "CS101 and MATH101 do not overlap").
-
-
-Note: The sample data’s 40 courses may leave some unscheduled due to overlaps.
-
-6. View the Schedule
-
-Purpose: Inspect the schedule in a table.
-Steps:
-Click View Schedule to open a new window.
-View columns: Day, Time, Course, Professor, Classroom.
-Verify non-overlapping courses (e.g., CS101 and MATH101).
-
-
-Example Output:Day       Time          Course   Professor          Classroom
-Monday    09:00-10:30   CS101    Dr. Alice Smith    Room 101
-Tuesday   10:00-11:30   MATH101  Dr. Bob Johnson    Room 102
-Wednesday 09:00-11:00   CS201    Dr. Alice Smith    Lab 201
+```
+Day       Time          Course    Professor         Classroom
+Monday    09:00–10:30   CS101     Dr. A. Smith      Room 101
+Tuesday   10:00–11:30   MATH101   Dr. B. Johnson    Room 102
+Wednesday 09:00–11:00   CS201     Dr. A. Smith      Lab 201
 ...
+```
 
+---
 
+### 7. Save Your Work
 
+* Click **"Save Data"**
+* A `scheduler_data.json` file will be saved for future use
 
-7. Save Data
+> Save before exiting to preserve any custom data.
 
-Purpose: Save data and schedules to JSON.
-Steps:
-Click Save Data.
-A scheduler_data.json file is created in the project directory.
-Data loads automatically on restart.
+---
 
+### 8. Exit
 
-Note: Save before closing to preserve custom data.
+* Close the main window
+* Choose to save when prompted
 
-8. Close the Application
+---
 
-Steps:
-Close the main window.
-Choose to save data when prompted.
+## 🛠 Troubleshooting
 
+### ❌ Error: `No module named 'data.sample_data'`
 
-Note: Saved data ensures continuity.
+* **Fix**:
 
-Troubleshooting
+  * Ensure `data/__init__.py` exists
+  * Confirm `sample_data.py` is present
+  * Delete cache:
 
-Error: "Failed to load sample data: No module named 'data.sample_data'":
+    ```bash
+    rmdir /s /q data/__pycache__
+    ```
+  * Test import:
 
-Cause: data directory is not a Python package.
-Fix:
-Ensure data/__init__.py exists.
-Verify sample_data.py is in data/.
-Clear cache:rmdir /s /q data/__pycache__
+    ```bash
+    python -c "from data.sample_data import sample_professors; print('Success')"
+    ```
 
+---
 
-Test import:python -c "from data.sample_data import sample_professors; print('Success')"
+### ⚠ Unscheduled Courses
 
+* **Cause**: Dataset too large or conflicting
+* **Fix**: Increase `max_iterations` in `utils/scheduler_engine.py`:
 
-Set PYTHONPATH if needed:export PYTHONPATH=$PYTHONPATH:/path/to/UniClassScheduler
+```python
+def generate_schedule(..., max_iterations: int = 5000)
+```
 
+---
 
+### ⚠ Non-Overlap Not Respected
 
+* **Cause**: Constraints too tight
+* **Fix**: Review console logs, increase `max_iterations`, or use different course pairs
 
+---
 
+## 📁 Project Structure
 
-Unscheduled Courses:
-
-Cause: Large dataset (40 courses, 15 classrooms) with overlaps.
-Fix: Expected for testing. Increase max_iterations in utils/scheduler_engine.py:def generate_schedule(self, non_overlap_courses: Optional[Tuple[str, str]] = None, max_iterations: int = 5000) -> Schedule:
-
-
-
-
-Non-Overlap Failure:
-
-Cause: Tight constraints in sample data.
-Fix: Check console logs for warnings. Try different course pairs or increase max_iterations.
-
-
-
-Project Structure
+```
 UniClassScheduler/
-├── main.py                 # Application entry point
+├── main.py                 # Entry point
 ├── models/                 # Data models
-│   ├── __init__.py
-│   ├── professor.py
-│   ├── course.py
-│   ├── classroom.py
-│   └── schedule.py
-├── utils/                  # Scheduling logic
-│   ├── __init__.py
-│   └── scheduler_engine.py
+├── utils/                  # Scheduling engine
 ├── gui/                    # GUI components
-│   ├── __init__.py
-│   ├── app.py
-│   ├── input_frames.py
-│   └── schedule_view.py
 ├── data/                   # Sample data
-│   ├── __init__.py
-│   └── sample_data.py
-├── screenshots/            # Screenshots for README
-│   ├── main_interface.png
-│   ├── plan_courses.png
-│   └── schedule_view.png
+├── screenshots/            # UI snapshots
 ├── LICENSE
 └── README.md
-
+```
