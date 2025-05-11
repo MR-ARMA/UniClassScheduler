@@ -1,0 +1,1921 @@
+{
+    "professors": [
+        {
+            "name": "Dr. Alice Smith",
+            "available_times": [
+                [
+                    "Monday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Wednesday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Friday",
+                    "14:00",
+                    "17:00"
+                ]
+            ],
+            "courses": [
+                "CS101",
+                "CS201",
+                "CS301",
+                "CS401"
+            ]
+        },
+        {
+            "name": "Dr. Bob Johnson",
+            "available_times": [
+                [
+                    "Tuesday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Thursday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Friday",
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "courses": [
+                "MATH101",
+                "MATH201",
+                "MATH301",
+                "CS201"
+            ]
+        },
+        {
+            "name": "Dr. Carol White",
+            "available_times": [
+                [
+                    "Monday",
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "Wednesday",
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "Thursday",
+                    "14:00",
+                    "17:00"
+                ]
+            ],
+            "courses": [
+                "PHYS101",
+                "PHYS201",
+                "PHYS301"
+            ]
+        },
+        {
+            "name": "Dr. David Lee",
+            "available_times": [
+                [
+                    "Monday",
+                    "09:00",
+                    "11:00"
+                ],
+                [
+                    "Tuesday",
+                    "14:00",
+                    "17:00"
+                ],
+                [
+                    "Friday",
+                    "10:00",
+                    "13:00"
+                ]
+            ],
+            "courses": [
+                "CHEM101",
+                "CHEM201",
+                "CS301"
+            ]
+        },
+        {
+            "name": "Dr. Emma Brown",
+            "available_times": [
+                [
+                    "Wednesday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Thursday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Friday",
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "courses": [
+                "ENG101",
+                "ENG201",
+                "ENG301"
+            ]
+        },
+        {
+            "name": "Dr. Frank Wilson",
+            "available_times": [
+                [
+                    "Monday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Tuesday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Thursday",
+                    "14:00",
+                    "17:00"
+                ]
+            ],
+            "courses": [
+                "CS102",
+                "CS202",
+                "CS302"
+            ]
+        },
+        {
+            "name": "Dr. Grace Taylor",
+            "available_times": [
+                [
+                    "Monday",
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "Wednesday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Friday",
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "courses": [
+                "MATH102",
+                "MATH202",
+                "MATH302"
+            ]
+        },
+        {
+            "name": "Dr. Henry Davis",
+            "available_times": [
+                [
+                    "Tuesday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Thursday",
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "Friday",
+                    "14:00",
+                    "17:00"
+                ]
+            ],
+            "courses": [
+                "PHYS102",
+                "PHYS202",
+                "PHYS302"
+            ]
+        },
+        {
+            "name": "Dr. Isabella Martinez",
+            "available_times": [
+                [
+                    "Monday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Wednesday",
+                    "14:00",
+                    "17:00"
+                ],
+                [
+                    "Friday",
+                    "10:00",
+                    "13:00"
+                ]
+            ],
+            "courses": [
+                "CHEM102",
+                "CHEM202",
+                "CHEM302"
+            ]
+        },
+        {
+            "name": "Dr. James Anderson",
+            "available_times": [
+                [
+                    "Tuesday",
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "Thursday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Friday",
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "courses": [
+                "ENG102",
+                "ENG202",
+                "ENG302"
+            ]
+        },
+        {
+            "name": "Dr. Karen Thomas",
+            "available_times": [
+                [
+                    "Monday",
+                    "14:00",
+                    "17:00"
+                ],
+                [
+                    "Wednesday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Friday",
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "courses": [
+                "CS103",
+                "CS203",
+                "CS303"
+            ]
+        },
+        {
+            "name": "Dr. Liam Garcia",
+            "available_times": [
+                [
+                    "Tuesday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Thursday",
+                    "14:00",
+                    "17:00"
+                ],
+                [
+                    "Friday",
+                    "10:00",
+                    "13:00"
+                ]
+            ],
+            "courses": [
+                "MATH103",
+                "MATH203",
+                "MATH303"
+            ]
+        },
+        {
+            "name": "Dr. Mia Rodriguez",
+            "available_times": [
+                [
+                    "Monday",
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "Wednesday",
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "Friday",
+                    "14:00",
+                    "17:00"
+                ]
+            ],
+            "courses": [
+                "PHYS103",
+                "PHYS203",
+                "PHYS303"
+            ]
+        },
+        {
+            "name": "Dr. Noah Hernandez",
+            "available_times": [
+                [
+                    "Tuesday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Thursday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Friday",
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "courses": [
+                "CHEM103",
+                "CHEM203",
+                "CHEM303"
+            ]
+        },
+        {
+            "name": "Dr. Olivia Lopez",
+            "available_times": [
+                [
+                    "Monday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Wednesday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Friday",
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "courses": [
+                "ENG103",
+                "ENG203",
+                "ENG303"
+            ]
+        },
+        {
+            "name": "Dr. Paul Walker",
+            "available_times": [
+                [
+                    "Tuesday",
+                    "14:00",
+                    "17:00"
+                ],
+                [
+                    "Thursday",
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "Friday",
+                    "10:00",
+                    "13:00"
+                ]
+            ],
+            "courses": [
+                "CS104",
+                "CS204",
+                "CS304"
+            ]
+        },
+        {
+            "name": "Dr. Quinn Adams",
+            "available_times": [
+                [
+                    "Monday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Wednesday",
+                    "14:00",
+                    "17:00"
+                ],
+                [
+                    "Friday",
+                    "14:00",
+                    "17:00"
+                ]
+            ],
+            "courses": [
+                "MATH104",
+                "MATH204",
+                "MATH304"
+            ]
+        },
+        {
+            "name": "Dr. Rachel Young",
+            "available_times": [
+                [
+                    "Tuesday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Thursday",
+                    "10:00",
+                    "13:00"
+                ],
+                [
+                    "Friday",
+                    "09:00",
+                    "12:00"
+                ]
+            ],
+            "courses": [
+                "PHYS104",
+                "PHYS204",
+                "PHYS304"
+            ]
+        },
+        {
+            "name": "Dr. Samuel King",
+            "available_times": [
+                [
+                    "Monday",
+                    "13:00",
+                    "16:00"
+                ],
+                [
+                    "Wednesday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Friday",
+                    "13:00",
+                    "16:00"
+                ]
+            ],
+            "courses": [
+                "CHEM104",
+                "CHEM204",
+                "CHEM304"
+            ]
+        },
+        {
+            "name": "Dr. Tara Scott",
+            "available_times": [
+                [
+                    "Tuesday",
+                    "09:00",
+                    "12:00"
+                ],
+                [
+                    "Thursday",
+                    "14:00",
+                    "17:00"
+                ],
+                [
+                    "Friday",
+                    "10:00",
+                    "13:00"
+                ]
+            ],
+            "courses": [
+                "ENG104",
+                "ENG204",
+                "ENG304"
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "name": "Introduction to Programming",
+            "code": "CS101",
+            "duration": 90,
+            "professors": [
+                "Dr. Alice Smith"
+            ],
+            "conflicts": [
+                "MATH101",
+                "CHEM101"
+            ]
+        },
+        {
+            "name": "Data Structures",
+            "code": "CS201",
+            "duration": 120,
+            "professors": [
+                "Dr. Alice Smith",
+                "Dr. Bob Johnson"
+            ],
+            "conflicts": [
+                "PHYS101"
+            ]
+        },
+        {
+            "name": "Algorithms",
+            "code": "CS301",
+            "duration": 90,
+            "professors": [
+                "Dr. Alice Smith",
+                "Dr. David Lee"
+            ],
+            "conflicts": [
+                "ENG101"
+            ]
+        },
+        {
+            "name": "Operating Systems",
+            "code": "CS401",
+            "duration": 90,
+            "professors": [
+                "Dr. Alice Smith"
+            ],
+            "conflicts": [
+                "MATH201"
+            ]
+        },
+        {
+            "name": "Calculus I",
+            "code": "MATH101",
+            "duration": 90,
+            "professors": [
+                "Dr. Bob Johnson"
+            ],
+            "conflicts": [
+                "CS101",
+                "PHYS101"
+            ]
+        },
+        {
+            "name": "Linear Algebra",
+            "code": "MATH201",
+            "duration": 90,
+            "professors": [
+                "Dr. Bob Johnson"
+            ],
+            "conflicts": [
+                "CS401"
+            ]
+        },
+        {
+            "name": "Differential Equations",
+            "code": "MATH301",
+            "duration": 90,
+            "professors": [
+                "Dr. Bob Johnson"
+            ],
+            "conflicts": [
+                "CHEM201"
+            ]
+        },
+        {
+            "name": "Mechanics",
+            "code": "PHYS101",
+            "duration": 120,
+            "professors": [
+                "Dr. Carol White"
+            ],
+            "conflicts": [
+                "CS201",
+                "MATH101"
+            ]
+        },
+        {
+            "name": "Electromagnetism",
+            "code": "PHYS201",
+            "duration": 90,
+            "professors": [
+                "Dr. Carol White"
+            ],
+            "conflicts": [
+                "ENG201"
+            ]
+        },
+        {
+            "name": "Quantum Physics",
+            "code": "PHYS301",
+            "duration": 90,
+            "professors": [
+                "Dr. Carol White"
+            ],
+            "conflicts": [
+                "CS301"
+            ]
+        },
+        {
+            "name": "General Chemistry",
+            "code": "CHEM101",
+            "duration": 90,
+            "professors": [
+                "Dr. David Lee"
+            ],
+            "conflicts": [
+                "CS101"
+            ]
+        },
+        {
+            "name": "Organic Chemistry",
+            "code": "CHEM201",
+            "duration": 120,
+            "professors": [
+                "Dr. David Lee"
+            ],
+            "conflicts": [
+                "MATH301"
+            ]
+        },
+        {
+            "name": "Analytical Chemistry",
+            "code": "CHEM301",
+            "duration": 90,
+            "professors": [
+                "Dr. David Lee"
+            ],
+            "conflicts": [
+                "ENG301"
+            ]
+        },
+        {
+            "name": "Introduction to Literature",
+            "code": "ENG101",
+            "duration": 90,
+            "professors": [
+                "Dr. Emma Brown"
+            ],
+            "conflicts": [
+                "CS301"
+            ]
+        },
+        {
+            "name": "Creative Writing",
+            "code": "ENG201",
+            "duration": 90,
+            "professors": [
+                "Dr. Emma Brown"
+            ],
+            "conflicts": [
+                "PHYS201"
+            ]
+        },
+        {
+            "name": "Literary Theory",
+            "code": "ENG301",
+            "duration": 90,
+            "professors": [
+                "Dr. Emma Brown"
+            ],
+            "conflicts": [
+                "CHEM301"
+            ]
+        },
+        {
+            "name": "Programming II",
+            "code": "CS102",
+            "duration": 90,
+            "professors": [
+                "Dr. Frank Wilson"
+            ],
+            "conflicts": [
+                "MATH102"
+            ]
+        },
+        {
+            "name": "Database Systems",
+            "code": "CS202",
+            "duration": 120,
+            "professors": [
+                "Dr. Frank Wilson"
+            ],
+            "conflicts": [
+                "PHYS102"
+            ]
+        },
+        {
+            "name": "Software Engineering",
+            "code": "CS302",
+            "duration": 90,
+            "professors": [
+                "Dr. Frank Wilson"
+            ],
+            "conflicts": [
+                "ENG102"
+            ]
+        },
+        {
+            "name": "Calculus II",
+            "code": "MATH102",
+            "duration": 90,
+            "professors": [
+                "Dr. Grace Taylor"
+            ],
+            "conflicts": [
+                "CS102"
+            ]
+        },
+        {
+            "name": "Probability",
+            "code": "MATH202",
+            "duration": 90,
+            "professors": [
+                "Dr. Grace Taylor"
+            ],
+            "conflicts": [
+                "CHEM102"
+            ]
+        },
+        {
+            "name": "Number Theory",
+            "code": "MATH302",
+            "duration": 90,
+            "professors": [
+                "Dr. Grace Taylor"
+            ],
+            "conflicts": [
+                "PHYS102"
+            ]
+        },
+        {
+            "name": "Thermodynamics",
+            "code": "PHYS102",
+            "duration": 120,
+            "professors": [
+                "Dr. Henry Davis"
+            ],
+            "conflicts": [
+                "CS202",
+                "MATH302"
+            ]
+        },
+        {
+            "name": "Optics",
+            "code": "PHYS202",
+            "duration": 90,
+            "professors": [
+                "Dr. Henry Davis"
+            ],
+            "conflicts": [
+                "ENG202"
+            ]
+        },
+        {
+            "name": "Relativity",
+            "code": "PHYS302",
+            "duration": 90,
+            "professors": [
+                "Dr. Henry Davis"
+            ],
+            "conflicts": [
+                "CHEM102"
+            ]
+        },
+        {
+            "name": "Inorganic Chemistry",
+            "code": "CHEM102",
+            "duration": 90,
+            "professors": [
+                "Dr. Isabella Martinez"
+            ],
+            "conflicts": [
+                "MATH202",
+                "PHYS302"
+            ]
+        },
+        {
+            "name": "Biochemistry",
+            "code": "CHEM202",
+            "duration": 120,
+            "professors": [
+                "Dr. Isabella Martinez"
+            ],
+            "conflicts": [
+                "ENG202"
+            ]
+        },
+        {
+            "name": "Physical Chemistry",
+            "code": "CHEM302",
+            "duration": 90,
+            "professors": [
+                "Dr. Isabella Martinez"
+            ],
+            "conflicts": [
+                "CS103"
+            ]
+        },
+        {
+            "name": "American Literature",
+            "code": "ENG102",
+            "duration": 90,
+            "professors": [
+                "Dr. James Anderson"
+            ],
+            "conflicts": [
+                "CS302"
+            ]
+        },
+        {
+            "name": "Poetry",
+            "code": "ENG202",
+            "duration": 90,
+            "professors": [
+                "Dr. James Anderson"
+            ],
+            "conflicts": [
+                "PHYS202",
+                "CHEM202"
+            ]
+        },
+        {
+            "name": "Drama",
+            "code": "ENG302",
+            "duration": 90,
+            "professors": [
+                "Dr. James Anderson"
+            ],
+            "conflicts": [
+                "MATH103"
+            ]
+        },
+        {
+            "name": "Computer Networks",
+            "code": "CS103",
+            "duration": 90,
+            "professors": [
+                "Dr. Karen Thomas"
+            ],
+            "conflicts": [
+                "CHEM302"
+            ]
+        },
+        {
+            "name": "Artificial Intelligence",
+            "code": "CS203",
+            "duration": 120,
+            "professors": [
+                "Dr. Karen Thomas"
+            ],
+            "conflicts": [
+                "PHYS103"
+            ]
+        },
+        {
+            "name": "Machine Learning",
+            "code": "CS303",
+            "duration": 90,
+            "professors": [
+                "Dr. Karen Thomas"
+            ],
+            "conflicts": [
+                "ENG103"
+            ]
+        },
+        {
+            "name": "Statistics",
+            "code": "MATH103",
+            "duration": 90,
+            "professors": [
+                "Dr. Liam Garcia"
+            ],
+            "conflicts": [
+                "ENG302"
+            ]
+        },
+        {
+            "name": "Algebra",
+            "code": "MATH203",
+            "duration": 90,
+            "professors": [
+                "Dr. Liam Garcia"
+            ],
+            "conflicts": [
+                "CHEM103"
+            ]
+        },
+        {
+            "name": "Topology",
+            "code": "MATH303",
+            "duration": 90,
+            "professors": [
+                "Dr. Liam Garcia"
+            ],
+            "conflicts": [
+                "PHYS103"
+            ]
+        },
+        {
+            "name": "Astrophysics",
+            "code": "PHYS103",
+            "duration": 120,
+            "professors": [
+                "Dr. Mia Rodriguez"
+            ],
+            "conflicts": [
+                "CS203",
+                "MATH303"
+            ]
+        },
+        {
+            "name": "Particle Physics",
+            "code": "PHYS203",
+            "duration": 90,
+            "professors": [
+                "Dr. Mia Rodriguez"
+            ],
+            "conflicts": [
+                "ENG203"
+            ]
+        },
+        {
+            "name": "Solid State Physics",
+            "code": "PHYS303",
+            "duration": 90,
+            "professors": [
+                "Dr. Mia Rodriguez"
+            ],
+            "conflicts": [
+                "CHEM103"
+            ]
+        }
+    ],
+    "classrooms": [
+        {
+            "name": "Lab 202",
+            "capacity": 20,
+            "available_times": [
+                [
+                    "Tuesday",
+                    "10:00",
+                    "16:00"
+                ],
+                [
+                    "Thursday",
+                    "10:00",
+                    "16:00"
+                ]
+            ],
+            "features": [
+                "Computers",
+                "Lab Equipment"
+            ],
+            "scheduled_times": {
+                "Tuesday": [
+                    [
+                        "10:00",
+                        "11:30",
+                        "MATH101"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 102",
+            "capacity": 30,
+            "available_times": [
+                [
+                    "Monday",
+                    "13:00",
+                    "18:00"
+                ],
+                [
+                    "Tuesday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Wednesday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Thursday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Friday",
+                    "08:00",
+                    "18:00"
+                ]
+            ],
+            "features": [
+                "Whiteboard",
+                "Smartboard"
+            ],
+            "scheduled_times": {
+                "Thursday": [
+                    [
+                        "10:30",
+                        "12:00",
+                        "ENG302"
+                    ],
+                    [
+                        "14:00",
+                        "15:30",
+                        "CS102"
+                    ]
+                ],
+                "Wednesday": [
+                    [
+                        "09:00",
+                        "10:30",
+                        "CS303"
+                    ]
+                ],
+                "Friday": [
+                    [
+                        "10:00",
+                        "12:00",
+                        "CHEM201"
+                    ]
+                ],
+                "Monday": [
+                    [
+                        "13:00",
+                        "14:30",
+                        "MATH202"
+                    ],
+                    [
+                        "15:00",
+                        "17:00",
+                        "CS203"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 101",
+            "capacity": 40,
+            "available_times": [
+                [
+                    "Monday",
+                    "08:00",
+                    "12:00"
+                ],
+                [
+                    "Tuesday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Wednesday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Thursday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Friday",
+                    "08:00",
+                    "18:00"
+                ]
+            ],
+            "features": [
+                "Projector",
+                "Whiteboard"
+            ],
+            "scheduled_times": {
+                "Friday": [
+                    [
+                        "09:30",
+                        "11:00",
+                        "MATH201"
+                    ],
+                    [
+                        "14:30",
+                        "16:30",
+                        "PHYS103"
+                    ]
+                ],
+                "Thursday": [
+                    [
+                        "15:30",
+                        "17:00",
+                        "MATH103"
+                    ]
+                ],
+                "Monday": [
+                    [
+                        "09:30",
+                        "11:00",
+                        "CHEM302"
+                    ]
+                ],
+                "Wednesday": [
+                    [
+                        "11:00",
+                        "12:30",
+                        "MATH102"
+                    ],
+                    [
+                        "13:00",
+                        "14:30",
+                        "PHYS303"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 203",
+            "capacity": 40,
+            "available_times": [
+                [
+                    "Monday",
+                    "10:00",
+                    "16:00"
+                ],
+                [
+                    "Tuesday",
+                    "10:00",
+                    "16:00"
+                ],
+                [
+                    "Friday",
+                    "10:00",
+                    "16:00"
+                ]
+            ],
+            "features": [
+                "Speakers",
+                "Whiteboard"
+            ],
+            "scheduled_times": {
+                "Friday": [
+                    [
+                        "14:00",
+                        "15:30",
+                        "CS401"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 104",
+            "capacity": 35,
+            "available_times": [
+                [
+                    "Monday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Wednesday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Friday",
+                    "08:00",
+                    "18:00"
+                ]
+            ],
+            "features": [
+                "Whiteboard",
+                "Projector"
+            ],
+            "scheduled_times": {
+                "Wednesday": [
+                    [
+                        "10:00",
+                        "11:30",
+                        "ENG201"
+                    ],
+                    [
+                        "14:00",
+                        "16:00",
+                        "CHEM202"
+                    ]
+                ],
+                "Friday": [
+                    [
+                        "10:00",
+                        "11:30",
+                        "CHEM102"
+                    ],
+                    [
+                        "11:30",
+                        "13:00",
+                        "MATH303"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 302",
+            "capacity": 30,
+            "available_times": [
+                [
+                    "Monday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Friday",
+                    "08:00",
+                    "18:00"
+                ]
+            ],
+            "features": [
+                "Whiteboard",
+                "Smartboard"
+            ],
+            "scheduled_times": {
+                "Friday": [
+                    [
+                        "10:30",
+                        "12:00",
+                        "MATH302"
+                    ],
+                    [
+                        "14:00",
+                        "15:30",
+                        "ENG102"
+                    ]
+                ],
+                "Monday": [
+                    [
+                        "09:30",
+                        "11:00",
+                        "CS301"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Lab 201",
+            "capacity": 25,
+            "available_times": [
+                [
+                    "Wednesday",
+                    "09:00",
+                    "17:00"
+                ],
+                [
+                    "Friday",
+                    "09:00",
+                    "17:00"
+                ]
+            ],
+            "features": [
+                "Computers",
+                "Projector"
+            ],
+            "scheduled_times": {
+                "Wednesday": [
+                    [
+                        "14:30",
+                        "16:00",
+                        "PHYS203"
+                    ]
+                ],
+                "Friday": [
+                    [
+                        "15:30",
+                        "17:00",
+                        "CS101"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Lab 302",
+            "capacity": 20,
+            "available_times": [
+                [
+                    "Wednesday",
+                    "10:00",
+                    "16:00"
+                ],
+                [
+                    "Friday",
+                    "10:00",
+                    "16:00"
+                ]
+            ],
+            "features": [
+                "Computers",
+                "Lab Equipment"
+            ],
+            "scheduled_times": {
+                "Friday": [
+                    [
+                        "14:00",
+                        "15:30",
+                        "PHYS302"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 204",
+            "capacity": 35,
+            "available_times": [
+                [
+                    "Tuesday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Thursday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Friday",
+                    "08:00",
+                    "18:00"
+                ]
+            ],
+            "features": [
+                "Projector",
+                "Whiteboard"
+            ],
+            "scheduled_times": {
+                "Friday": [
+                    [
+                        "09:30",
+                        "11:00",
+                        "CS103"
+                    ],
+                    [
+                        "14:30",
+                        "16:00",
+                        "ENG301"
+                    ]
+                ],
+                "Thursday": [
+                    [
+                        "10:00",
+                        "11:30",
+                        "MATH301"
+                    ],
+                    [
+                        "15:00",
+                        "16:30",
+                        "PHYS301"
+                    ]
+                ],
+                "Tuesday": [
+                    [
+                        "15:30",
+                        "17:00",
+                        "CHEM301"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 205",
+            "capacity": 50,
+            "available_times": [
+                [
+                    "Monday",
+                    "13:00",
+                    "18:00"
+                ],
+                [
+                    "Wednesday",
+                    "13:00",
+                    "18:00"
+                ]
+            ],
+            "features": [
+                "Smartboard",
+                "Speakers"
+            ],
+            "scheduled_times": {}
+        },
+        {
+            "name": "Room 103",
+            "capacity": 50,
+            "available_times": [
+                [
+                    "Monday",
+                    "09:00",
+                    "17:00"
+                ],
+                [
+                    "Tuesday",
+                    "09:00",
+                    "17:00"
+                ],
+                [
+                    "Thursday",
+                    "09:00",
+                    "17:00"
+                ]
+            ],
+            "features": [
+                "Projector",
+                "Speakers"
+            ],
+            "scheduled_times": {}
+        },
+        {
+            "name": "Lab 301",
+            "capacity": 25,
+            "available_times": [
+                [
+                    "Monday",
+                    "09:00",
+                    "13:00"
+                ],
+                [
+                    "Wednesday",
+                    "09:00",
+                    "13:00"
+                ]
+            ],
+            "features": [
+                "Computers",
+                "Projector"
+            ],
+            "scheduled_times": {
+                "Monday": [
+                    [
+                        "10:30",
+                        "12:00",
+                        "CS302"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 202",
+            "capacity": 30,
+            "available_times": [
+                [
+                    "Thursday",
+                    "09:00",
+                    "17:00"
+                ],
+                [
+                    "Friday",
+                    "09:00",
+                    "17:00"
+                ]
+            ],
+            "features": [
+                "Projector",
+                "Whiteboard"
+            ],
+            "scheduled_times": {
+                "Thursday": [
+                    [
+                        "09:00",
+                        "10:30",
+                        "ENG202"
+                    ],
+                    [
+                        "14:00",
+                        "15:30",
+                        "MATH203"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 301",
+            "capacity": 40,
+            "available_times": [
+                [
+                    "Tuesday",
+                    "09:00",
+                    "17:00"
+                ],
+                [
+                    "Thursday",
+                    "09:00",
+                    "17:00"
+                ]
+            ],
+            "features": [
+                "Whiteboard",
+                "Projector"
+            ],
+            "scheduled_times": {
+                "Thursday": [
+                    [
+                        "10:00",
+                        "11:30",
+                        "ENG101"
+                    ],
+                    [
+                        "13:30",
+                        "15:30",
+                        "PHYS102"
+                    ]
+                ],
+                "Tuesday": [
+                    [
+                        "11:00",
+                        "13:00",
+                        "CS202"
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Room 201",
+            "capacity": 45,
+            "available_times": [
+                [
+                    "Monday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Tuesday",
+                    "08:00",
+                    "18:00"
+                ],
+                [
+                    "Wednesday",
+                    "08:00",
+                    "18:00"
+                ]
+            ],
+            "features": [
+                "Smartboard",
+                "Whiteboard"
+            ],
+            "scheduled_times": {
+                "Tuesday": [
+                    [
+                        "10:30",
+                        "12:00",
+                        "PHYS202"
+                    ],
+                    [
+                        "14:00",
+                        "15:30",
+                        "CHEM101"
+                    ]
+                ],
+                "Wednesday": [
+                    [
+                        "09:30",
+                        "11:30",
+                        "CS201"
+                    ],
+                    [
+                        "13:00",
+                        "15:00",
+                        "PHYS101"
+                    ]
+                ],
+                "Monday": [
+                    [
+                        "13:30",
+                        "15:00",
+                        "PHYS201"
+                    ]
+                ]
+            }
+        }
+    ],
+    "schedule": {
+        "entries": [
+            {
+                "course_code": "ENG301",
+                "professor_name": "Dr. Emma Brown",
+                "classroom_name": "Room 204",
+                "day": "Friday",
+                "start_time": "14:30",
+                "end_time": "16:00"
+            },
+            {
+                "course_code": "CS102",
+                "professor_name": "Dr. Frank Wilson",
+                "classroom_name": "Room 102",
+                "day": "Thursday",
+                "start_time": "14:00",
+                "end_time": "15:30"
+            },
+            {
+                "course_code": "ENG102",
+                "professor_name": "Dr. James Anderson",
+                "classroom_name": "Room 302",
+                "day": "Friday",
+                "start_time": "14:00",
+                "end_time": "15:30"
+            },
+            {
+                "course_code": "CS302",
+                "professor_name": "Dr. Frank Wilson",
+                "classroom_name": "Lab 301",
+                "day": "Monday",
+                "start_time": "10:30",
+                "end_time": "12:00"
+            },
+            {
+                "course_code": "PHYS302",
+                "professor_name": "Dr. Henry Davis",
+                "classroom_name": "Lab 302",
+                "day": "Friday",
+                "start_time": "14:00",
+                "end_time": "15:30"
+            },
+            {
+                "course_code": "PHYS202",
+                "professor_name": "Dr. Henry Davis",
+                "classroom_name": "Room 201",
+                "day": "Tuesday",
+                "start_time": "10:30",
+                "end_time": "12:00"
+            },
+            {
+                "course_code": "PHYS301",
+                "professor_name": "Dr. Carol White",
+                "classroom_name": "Room 204",
+                "day": "Thursday",
+                "start_time": "15:00",
+                "end_time": "16:30"
+            },
+            {
+                "course_code": "CS201",
+                "professor_name": "Dr. Alice Smith",
+                "classroom_name": "Room 201",
+                "day": "Wednesday",
+                "start_time": "09:30",
+                "end_time": "11:30"
+            },
+            {
+                "course_code": "MATH201",
+                "professor_name": "Dr. Bob Johnson",
+                "classroom_name": "Room 101",
+                "day": "Friday",
+                "start_time": "09:30",
+                "end_time": "11:00"
+            },
+            {
+                "course_code": "MATH301",
+                "professor_name": "Dr. Bob Johnson",
+                "classroom_name": "Room 204",
+                "day": "Thursday",
+                "start_time": "10:00",
+                "end_time": "11:30"
+            },
+            {
+                "course_code": "CHEM101",
+                "professor_name": "Dr. David Lee",
+                "classroom_name": "Room 201",
+                "day": "Tuesday",
+                "start_time": "14:00",
+                "end_time": "15:30"
+            },
+            {
+                "course_code": "CS301",
+                "professor_name": "Dr. Alice Smith",
+                "classroom_name": "Room 302",
+                "day": "Monday",
+                "start_time": "09:30",
+                "end_time": "11:00"
+            },
+            {
+                "course_code": "ENG302",
+                "professor_name": "Dr. James Anderson",
+                "classroom_name": "Room 102",
+                "day": "Thursday",
+                "start_time": "10:30",
+                "end_time": "12:00"
+            },
+            {
+                "course_code": "ENG202",
+                "professor_name": "Dr. James Anderson",
+                "classroom_name": "Room 202",
+                "day": "Thursday",
+                "start_time": "09:00",
+                "end_time": "10:30"
+            },
+            {
+                "course_code": "CS303",
+                "professor_name": "Dr. Karen Thomas",
+                "classroom_name": "Room 102",
+                "day": "Wednesday",
+                "start_time": "09:00",
+                "end_time": "10:30"
+            },
+            {
+                "course_code": "CHEM201",
+                "professor_name": "Dr. David Lee",
+                "classroom_name": "Room 102",
+                "day": "Friday",
+                "start_time": "10:00",
+                "end_time": "12:00"
+            },
+            {
+                "course_code": "PHYS102",
+                "professor_name": "Dr. Henry Davis",
+                "classroom_name": "Room 301",
+                "day": "Thursday",
+                "start_time": "13:30",
+                "end_time": "15:30"
+            },
+            {
+                "course_code": "MATH103",
+                "professor_name": "Dr. Liam Garcia",
+                "classroom_name": "Room 101",
+                "day": "Thursday",
+                "start_time": "15:30",
+                "end_time": "17:00"
+            },
+            {
+                "course_code": "PHYS201",
+                "professor_name": "Dr. Carol White",
+                "classroom_name": "Room 201",
+                "day": "Monday",
+                "start_time": "13:30",
+                "end_time": "15:00"
+            },
+            {
+                "course_code": "CHEM202",
+                "professor_name": "Dr. Isabella Martinez",
+                "classroom_name": "Room 104",
+                "day": "Wednesday",
+                "start_time": "14:00",
+                "end_time": "16:00"
+            },
+            {
+                "course_code": "CS202",
+                "professor_name": "Dr. Frank Wilson",
+                "classroom_name": "Room 301",
+                "day": "Tuesday",
+                "start_time": "11:00",
+                "end_time": "13:00"
+            },
+            {
+                "course_code": "CS203",
+                "professor_name": "Dr. Karen Thomas",
+                "classroom_name": "Room 102",
+                "day": "Monday",
+                "start_time": "15:00",
+                "end_time": "17:00"
+            },
+            {
+                "course_code": "MATH101",
+                "professor_name": "Dr. Bob Johnson",
+                "classroom_name": "Lab 202",
+                "day": "Tuesday",
+                "start_time": "10:00",
+                "end_time": "11:30"
+            },
+            {
+                "course_code": "ENG201",
+                "professor_name": "Dr. Emma Brown",
+                "classroom_name": "Room 104",
+                "day": "Wednesday",
+                "start_time": "10:00",
+                "end_time": "11:30"
+            },
+            {
+                "course_code": "CHEM102",
+                "professor_name": "Dr. Isabella Martinez",
+                "classroom_name": "Room 104",
+                "day": "Friday",
+                "start_time": "10:00",
+                "end_time": "11:30"
+            },
+            {
+                "course_code": "ENG101",
+                "professor_name": "Dr. Emma Brown",
+                "classroom_name": "Room 301",
+                "day": "Thursday",
+                "start_time": "10:00",
+                "end_time": "11:30"
+            },
+            {
+                "course_code": "MATH203",
+                "professor_name": "Dr. Liam Garcia",
+                "classroom_name": "Room 202",
+                "day": "Thursday",
+                "start_time": "14:00",
+                "end_time": "15:30"
+            },
+            {
+                "course_code": "CHEM302",
+                "professor_name": "Dr. Isabella Martinez",
+                "classroom_name": "Room 101",
+                "day": "Monday",
+                "start_time": "09:30",
+                "end_time": "11:00"
+            },
+            {
+                "course_code": "MATH102",
+                "professor_name": "Dr. Grace Taylor",
+                "classroom_name": "Room 101",
+                "day": "Wednesday",
+                "start_time": "11:00",
+                "end_time": "12:30"
+            },
+            {
+                "course_code": "CS401",
+                "professor_name": "Dr. Alice Smith",
+                "classroom_name": "Room 203",
+                "day": "Friday",
+                "start_time": "14:00",
+                "end_time": "15:30"
+            },
+            {
+                "course_code": "MATH303",
+                "professor_name": "Dr. Liam Garcia",
+                "classroom_name": "Room 104",
+                "day": "Friday",
+                "start_time": "11:30",
+                "end_time": "13:00"
+            },
+            {
+                "course_code": "MATH302",
+                "professor_name": "Dr. Grace Taylor",
+                "classroom_name": "Room 302",
+                "day": "Friday",
+                "start_time": "10:30",
+                "end_time": "12:00"
+            },
+            {
+                "course_code": "CHEM301",
+                "professor_name": "Dr. David Lee",
+                "classroom_name": "Room 204",
+                "day": "Tuesday",
+                "start_time": "15:30",
+                "end_time": "17:00"
+            },
+            {
+                "course_code": "PHYS203",
+                "professor_name": "Dr. Mia Rodriguez",
+                "classroom_name": "Lab 201",
+                "day": "Wednesday",
+                "start_time": "14:30",
+                "end_time": "16:00"
+            },
+            {
+                "course_code": "CS101",
+                "professor_name": "Dr. Alice Smith",
+                "classroom_name": "Lab 201",
+                "day": "Friday",
+                "start_time": "15:30",
+                "end_time": "17:00"
+            },
+            {
+                "course_code": "PHYS103",
+                "professor_name": "Dr. Mia Rodriguez",
+                "classroom_name": "Room 101",
+                "day": "Friday",
+                "start_time": "14:30",
+                "end_time": "16:30"
+            },
+            {
+                "course_code": "CS103",
+                "professor_name": "Dr. Karen Thomas",
+                "classroom_name": "Room 204",
+                "day": "Friday",
+                "start_time": "09:30",
+                "end_time": "11:00"
+            },
+            {
+                "course_code": "PHYS101",
+                "professor_name": "Dr. Carol White",
+                "classroom_name": "Room 201",
+                "day": "Wednesday",
+                "start_time": "13:00",
+                "end_time": "15:00"
+            },
+            {
+                "course_code": "PHYS303",
+                "professor_name": "Dr. Mia Rodriguez",
+                "classroom_name": "Room 101",
+                "day": "Wednesday",
+                "start_time": "13:00",
+                "end_time": "14:30"
+            },
+            {
+                "course_code": "MATH202",
+                "professor_name": "Dr. Grace Taylor",
+                "classroom_name": "Room 102",
+                "day": "Monday",
+                "start_time": "13:00",
+                "end_time": "14:30"
+            }
+        ]
+    },
+    "non_overlap_courses": null
+}
